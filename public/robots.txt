@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /darkmode/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cdn-cgi/
+Disallow: /intro/
+
+Sitemap: https://aenfinite.us/sitemap.xml

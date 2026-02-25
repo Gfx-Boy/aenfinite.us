@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Complete Design & Development Portfolio | All Work | Aenfinite®",
   description: "Explore Aenfinite",
   keywords: "all projects, complete portfolio, design work, development projects, branding projects, app projects, Aenfinite case studies",
-  alternates: { canonical: "https://aenfinite.us/work/all/", languages: {"x-default":"https://aenfinite.us/work/all/","en":"https://aenfinite.us/work/all/","es":"https://aenfinite.us/es/work/all/","fr":"https://aenfinite.us/fr/work/all/","de":"https://aenfinite.us/de/work/all/","it":"https://aenfinite.us/it/work/all/","ar":"https://aenfinite.us/ar/work/all/","pt":"https://aenfinite.us/pt/work/all/","zh":"https://aenfinite.us/zh/work/all/","hi":"https://aenfinite.us/hi/work/all/","nl":"https://aenfinite.us/nl/work/all/","ja":"https://aenfinite.us/ja/work/all/","ko":"https://aenfinite.us/ko/work/all/"} },
+  alternates: { canonical: "https://aenfinite.us/work/all/", languages: {"x-default":"https://aenfinite.us/work/all/","en":"https://aenfinite.us/work/all/"} },
   openGraph: {"title":"Complete Design & Development Portfolio | All Work | Aenfinite®","description":"Explore Aenfinite","url":"https://aenfinite.us/work/all/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"}]},
   twitter: {"card":"summary_large_image","title":"Complete Design & Development Portfolio | All Work | Aenfinite®","description":"Explore Aenfinite","images":["https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"]},
   robots: { index: true, follow: true },

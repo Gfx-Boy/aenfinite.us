@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Professional Logo Design Portfolio | Aenfinite Creative Studio",
   description: "Explore Aenfinite",
   keywords: "logo design portfolio, logo projects, brand mark design, custom logos, Aenfinite logo work",
-  alternates: { canonical: "https://aenfinite.us/work/logo-design/", languages: {"x-default":"https://aenfinite.us/work/logo-design/","en":"https://aenfinite.us/work/logo-design/","es":"https://aenfinite.us/es/work/logo-design/","fr":"https://aenfinite.us/fr/work/logo-design/","de":"https://aenfinite.us/de/work/logo-design/","it":"https://aenfinite.us/it/work/logo-design/","ar":"https://aenfinite.us/ar/work/logo-design/","pt":"https://aenfinite.us/pt/work/logo-design/","zh":"https://aenfinite.us/zh/work/logo-design/","hi":"https://aenfinite.us/hi/work/logo-design/","nl":"https://aenfinite.us/nl/work/logo-design/","ja":"https://aenfinite.us/ja/work/logo-design/","ko":"https://aenfinite.us/ko/work/logo-design/"} },
+  alternates: { canonical: "https://aenfinite.us/work/logo-design/", languages: {"x-default":"https://aenfinite.us/work/logo-design/","en":"https://aenfinite.us/work/logo-design/"} },
   openGraph: {"title":"Professional Logo Design Portfolio | Aenfinite Creative Studio","description":"Explore Aenfinite","url":"https://aenfinite.us/work/logo-design/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"}]},
   twitter: {"card":"summary_large_image","title":"Professional Logo Design Portfolio | Aenfinite Creative Studio","description":"Explore Aenfinite","images":["https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"]},
   robots: { index: true, follow: true },

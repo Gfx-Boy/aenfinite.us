@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Professional Branding Portfolio | Aenfinite Creative Studio",
   description: "Explore Aenfinite",
   keywords: "branding portfolio, brand identity projects, branding case studies, logo and branding, creative branding, Aenfinite branding work",
-  alternates: { canonical: "https://aenfinite.us/work/branding/", languages: {"x-default":"https://aenfinite.us/work/branding/","en":"https://aenfinite.us/work/branding/","es":"https://aenfinite.us/es/work/branding/","fr":"https://aenfinite.us/fr/work/branding/","de":"https://aenfinite.us/de/work/branding/","it":"https://aenfinite.us/it/work/branding/","ar":"https://aenfinite.us/ar/work/branding/","pt":"https://aenfinite.us/pt/work/branding/","zh":"https://aenfinite.us/zh/work/branding/","hi":"https://aenfinite.us/hi/work/branding/","nl":"https://aenfinite.us/nl/work/branding/","ja":"https://aenfinite.us/ja/work/branding/","ko":"https://aenfinite.us/ko/work/branding/"} },
+  alternates: { canonical: "https://aenfinite.us/work/branding/", languages: {"x-default":"https://aenfinite.us/work/branding/","en":"https://aenfinite.us/work/branding/"} },
   openGraph: {"title":"Professional Branding Portfolio | Aenfinite Creative Studio","description":"Explore Aenfinite","url":"https://aenfinite.us/work/graphic-design/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/branding-thumbnail.jpg"}]},
   twitter: {"card":"summary_large_image","title":"Professional Branding Portfolio | Aenfinite Creative Studio","description":"Explore Aenfinite","images":["https://aenfinite.us/wp-content/themes/aenfinite.us/images/branding-thumbnail.jpg"]},
   robots: { index: true, follow: true },

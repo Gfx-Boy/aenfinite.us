@@ -55,17 +55,6 @@ export default function RootLayout({
         {/* HREFLANG TAGS - Global language alternates */}
         <link rel="alternate" hrefLang="x-default" href="https://aenfinite.us/" />
         <link rel="alternate" hrefLang="en" href="https://aenfinite.us/" />
-        <link rel="alternate" hrefLang="es" href="https://aenfinite.us/es/" />
-        <link rel="alternate" hrefLang="fr" href="https://aenfinite.us/fr/" />
-        <link rel="alternate" hrefLang="de" href="https://aenfinite.us/de/" />
-        <link rel="alternate" hrefLang="it" href="https://aenfinite.us/it/" />
-        <link rel="alternate" hrefLang="ar" href="https://aenfinite.us/ar/" />
-        <link rel="alternate" hrefLang="pt" href="https://aenfinite.us/pt/" />
-        <link rel="alternate" hrefLang="zh" href="https://aenfinite.us/zh/" />
-        <link rel="alternate" hrefLang="hi" href="https://aenfinite.us/hi/" />
-        <link rel="alternate" hrefLang="nl" href="https://aenfinite.us/nl/" />
-        <link rel="alternate" hrefLang="ja" href="https://aenfinite.us/ja/" />
-        <link rel="alternate" hrefLang="ko" href="https://aenfinite.us/ko/" />
         {/* END HREFLANG */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

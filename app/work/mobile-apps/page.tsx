@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Mobile App Development Portfolio | iOS & Android Apps | Aenfinite",
   description: "Discover Aenfinite",
   keywords: "mobile app portfolio, iOS app projects, Android app projects, app development case studies, Aenfinite mobile apps",
-  alternates: { canonical: "https://aenfinite.us/work/mobile-apps/", languages: {"x-default":"https://aenfinite.us/work/mobile-apps/","en":"https://aenfinite.us/work/mobile-apps/","es":"https://aenfinite.us/es/work/mobile-apps/","fr":"https://aenfinite.us/fr/work/mobile-apps/","de":"https://aenfinite.us/de/work/mobile-apps/","it":"https://aenfinite.us/it/work/mobile-apps/","ar":"https://aenfinite.us/ar/work/mobile-apps/","pt":"https://aenfinite.us/pt/work/mobile-apps/","zh":"https://aenfinite.us/zh/work/mobile-apps/","hi":"https://aenfinite.us/hi/work/mobile-apps/","nl":"https://aenfinite.us/nl/work/mobile-apps/","ja":"https://aenfinite.us/ja/work/mobile-apps/","ko":"https://aenfinite.us/ko/work/mobile-apps/"} },
+  alternates: { canonical: "https://aenfinite.us/work/mobile-apps/", languages: {"x-default":"https://aenfinite.us/work/mobile-apps/","en":"https://aenfinite.us/work/mobile-apps/"} },
   openGraph: {"title":"Mobile App Development Portfolio | iOS & Android Apps | Aenfinite","description":"Discover Aenfinite","url":"https://aenfinite.us/work/mobile-apps/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"}]},
   twitter: {"card":"summary_large_image","title":"Mobile App Development Portfolio | iOS & Android Apps | Aenfinite","description":"Discover Aenfinite","images":["https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"]},
   robots: { index: true, follow: true },

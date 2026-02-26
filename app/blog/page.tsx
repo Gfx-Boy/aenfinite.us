@@ -57,6 +57,8 @@ const pageContent = `<script>
             <a href="/blog/seo-strategies-2025/">Read More →</a>
         </article>
     </div>
+
+<div class="sitemap-footer" style="text-align: center; padding: 20px 0 40px;"><a href="/sitemap.xml" style="color: #999; text-decoration: none; font-size: 14px; font-family: sans-serif; transition: color 0.3s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#999'">Sitemap</a></div>
 `;
 
 export default function Page() {

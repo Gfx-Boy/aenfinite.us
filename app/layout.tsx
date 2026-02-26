@@ -90,7 +90,7 @@ export default function RootLayout({
           type="text/css"
         />
 
-                {/* Font Awesome for lightbox nav icons */}
+        {/* Font Awesome for lightbox nav icons */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -115,9 +115,38 @@ export default function RootLayout({
           // @ts-ignore
           onLoad="this.media='all'"
         />
+
+        {/* FOUC Prevention - hide body until styles load */}
+        <style dangerouslySetInnerHTML={{
+          __html: `
+          body:not(.styles-loaded) {
+            opacity: 0 !important;
+          }
+          body.styles-loaded {
+            opacity: 1 !important;
+            transition: opacity 0.3s ease;
+          }
+        `}} />
       </head>
       <body>
         {children}
+
+        {/* Reveal page once styles are loaded */}
+        <Script id="fouc-prevention" strategy="beforeInteractive">
+          {`
+            (function() {
+              function reveal() {
+                document.body.classList.add('styles-loaded');
+              }
+              if (document.readyState === 'complete') {
+                reveal();
+              } else {
+                window.addEventListener('load', reveal);
+              }
+              setTimeout(reveal, 2000);
+            })();
+          `}
+        </Script>
 
         {/* Core JavaScript Libraries – afterInteractive to not block first paint */}
         <Script
@@ -188,8 +217,8 @@ export default function RootLayout({
         </Script>
 
         {/* Clearbit */}
-        <Script 
-          src="https://tag.clearbitscripts.com/v1/pk_08e6c6ce3b014e610695b74a91741212/tags.js" 
+        <Script
+          src="https://tag.clearbitscripts.com/v1/pk_08e6c6ce3b014e610695b74a91741212/tags.js"
           strategy="lazyOnload"
         />
 

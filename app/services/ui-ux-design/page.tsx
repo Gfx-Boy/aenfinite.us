@@ -2578,11 +2578,10 @@ export default function Page() {
       "url": "https://aenfinite.us/",
       "logo": "https://aenfinite.us/wp-content/themes/aenfinite.us/images/logo.png",
       "sameAs": [
-        "https://www.facebook.com/aenfinite/",
-        "https://twitter.com/aenfinitee",
-        "https://www.instagram.com/aenfinite/",
-        "https://www.linkedin.com/company/aenfinite/"
-      ],
+					"https://www.facebook.com/aenfinite/",
+					"https://twitter.com/aenfinitee",
+					"https://www.instagram.com/Aenfinite/"
+				  ],
       "contactPoint": [{
         "@type": "ContactPoint",
         "email": "contact@aenfinite.us",

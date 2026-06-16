@@ -2857,12 +2857,10 @@ export default function Page() {
       "@id": "https://aenfinite.us/#organization",
       "name": "Aenfinite®",
       "sameAs": [
-        "https://www.facebook.com/aenfinite/",
-        "https://twitter.com/aenfinitee",
-        "https://www.instagram.com/aenfinite/",
-        "https://dribbble.com/aenfinite",
-        "https://www.behance.net/aenfinite"
-      ]
+					"https://www.facebook.com/aenfinite/",
+					"https://twitter.com/aenfinitee",
+					"https://www.instagram.com/Aenfinite/"
+				  ]
     },
     {
       "@type": "WebSite",

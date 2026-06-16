@@ -1894,10 +1894,10 @@ export default function Page() {
   "openingHours": "Mo-Fr 09:00-18:00",
   "priceRange": "$$",
   "sameAs": [
-    "https://www.instagram.com/aenfinite/",
-    "https://www.linkedin.com/company/aenfinite/",
-    "https://www.facebook.com/aenfinite/"
-  ]
+					"https://www.facebook.com/aenfinite/",
+					"https://twitter.com/aenfinitee",
+					"https://www.instagram.com/Aenfinite/"
+				  ]
 }` }}
         />
         <script

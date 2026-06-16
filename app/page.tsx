@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import HtmlPage from '@/components/HtmlPage';
 
 export const metadata: Metadata = {
-  title: "Aenfinite® | Professional Digital Innovation Agency | Web Design, Branding & Digital Marketing",
-  description: "Aenfinite® is a professional digital innovation agency specializing in custom web design, brand identity, UI/UX design, digital marketing, e-commerce development, and comprehensive digital transformation solutions. Serving businesses across the US and Canada.",
-  keywords: "digital agency, web design agency, branding agency, digital marketing agency United States, UI UX design, custom web development, SEO services, app development, e-commerce development, digital transformation, Aenfinite",
+  title: "Aenfinite® | US Digital Innovation Agency | AI, Software Development, Marketing & Design",
+  description: "Aenfinite® is a professional full-service digital innovation agency in the United States delivering AI solutions & automation, custom software and app development, SEO & digital marketing, e-commerce, branding and UI/UX design. Serving businesses across the US and Canada.",
+  keywords: "digital agency USA, American web design agency, US software development agency, AI agency USA, nationwide digital agency, digital agency, AI agency, AI automation services, software development agency, SEO agency, web design agency, branding agency, digital marketing agency United States, UI UX design, custom web development, SEO services, app development, e-commerce development, digital transformation, Aenfinite",
   alternates: { canonical: "https://aenfinite.us/", languages: {"x-default":"https://aenfinite.us/","en":"https://aenfinite.us/"} },
-  openGraph: {"title":"Aenfinite® | Professional Digital Innovation Agency | Web Design, Branding & Digital Marketing","description":"Aenfinite® is a professional digital innovation agency specializing in custom web design, brand identity, UI/UX design, digital marketing, e-commerce development, and comprehensive digital transformation solutions. Serving businesses across the US and Canada.","url":"https://aenfinite.us/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"}]},
+  openGraph: {"title":"Aenfinite® | Digital Innovation Agency | AI, Software Development, Marketing & Design","description":"Aenfinite® is a professional full-service digital innovation agency delivering AI solutions & automation, custom software and app development, SEO & digital marketing, e-commerce, branding and UI/UX design. Serving businesses across the US and Canada.","url":"https://aenfinite.us/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"}]},
   twitter: {"card":"summary_large_image","title":"Aenfinite® | Award-Winning Digital Innovation Agency","description":"Transform your business with Aenfinite®","images":["https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"]},
   robots: { index: true, follow: true },
 };
@@ -1126,7 +1126,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 								<a href="/featured-work/">Work</a>
 							</li>
 							<li class="topnav-item js-topnav-follow-item">
-								<a href="/agency">Agency</a>
+								<a href="/agency/">Agency</a>
 							</li>
 							<li class="topnav-item js-topnav-follow-item dropdown js-dropdown">
 								<a href="/services/">Services</a>
@@ -1136,8 +1136,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<ul class="sub-menu">											                                            
 											<li><a href="/services/wordpress-websites/">WordPress Websites</a></li>
 <li><a href="/services/e-commerce-websites/">E-Commerce Websites</a></li>
-											<li><a href="/services/custom-web-development">Custom Web Development</a></li>
-											<li><a href="/services/software-&-platform-development/">Software & Platform Development</a></li>
+											<li><a href="/services/custom-web-development/">Custom Web Development</a></li>
+											<li><a href="/services/software-and-platform-development/">Software & Platform Development</a></li>
 											<li><a href="/services/app-development/">App Development</a></li>
 											<li><a href="/services/web-design/">Website Design & Development</a></li>
 											<li><a href="/services/web-design-and-branding-for-real-estate/">Real Estate Web Solutions</a></li>									</ul>
@@ -1158,7 +1158,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<ul class="sub-menu">
 											<li><a href="/services/digital-marketing/">Digital Marketing Strategy</a></li>
 											<li><a href="/services/search-engine-optimization/">Search Engine Optimization (SEO)</a></li>
-											<li><a href="/services/pay-per-click">Pay-Per-Click (PPC) Advertising</a></li>
+											<li><a href="/services/pay-per-click/">Pay-Per-Click (PPC) Advertising</a></li>
 											<li><a href="/services/social-media-marketing/">Social Media Marketing</a></li> <li><a href="/services/paid-ads/">Paid Advertising</a></li>
 
 										</ul>
@@ -1168,8 +1168,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 							<li class="menu-item menu-item-has-children">
 										<a href="#">AI & Technology Solutions ›</a>
 										<ul class="sub-menu">
-											<li><a href="/services/ai-chatbots-&-virtual-assistants/">AI Chatbots & Virtual Assistants</a></li>
-											<li><a href="/services/workflow-&-business-automation/">Workflow & Business Automation</a></li>
+											<li><a href="/services/ai-chatbots-and-virtual-assistants/">AI Chatbots & Virtual Assistants</a></li>
+											<li><a href="/services/workflow-and-business-automation/">Workflow & Business Automation</a></li>
 										</ul>
 									</li>
 						</ul>
@@ -1223,7 +1223,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 							<div class="heart">
 								<img src="/wp-content/themes/aenfinite.us/images/heart.svg" alt="Heart" class="icon" loading="lazy" decoding="async" />
 							</div>
-							<a href="/darkmode" class="header-link"></a>
+							<a href="/darkmode/" class="header-link"></a>
 						</div>
 									</div>
 			</div>
@@ -1451,7 +1451,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 			<div class="section">
 		<div class="wrapper">
 			<div class="textbox appear js-aos">
-				<div class="textbox-content">Aenfinite® is a full-service digital innovation agency serving businesses across the United States and North America. Our distributed team of designers, developers, and strategists delivers premium web design, brand identity, UI/UX design, digital marketing, and custom development solutions to clients in every major market. From Silicon Valley startups to East Coast enterprises, we partner with growth-driven companies to build digital experiences that scale.</div>
+				<div class="textbox-content">Aenfinite® is a full-service digital innovation agency serving businesses across the United States and North America. Our distributed team of designers, developers, and strategists delivers premium AI solutions & automation, custom software development, web design, brand identity, UI/UX design, SEO, and digital marketing solutions to clients in every major market. From Silicon Valley startups to East Coast enterprises, we partner with growth-driven companies to build digital experiences that scale.<div class="ai-services-highlight" style="margin-top:28px; display:inline-flex; align-items:center; gap:12px; padding:12px 20px; border:1px solid rgba(255,255,255,0.25); border-radius:999px; font-size:14px; line-height:1.4;"><span style="font-weight:700; white-space:nowrap;">&#10024; NEW</span><span>We now offer <strong>AI services</strong> &mdash; AI chatbots, workflow automation &amp; custom AI integrations. <a href="/services/ai-chatbots-and-virtual-assistants/" style="text-decoration:underline; font-weight:600;">Explore AI solutions &rarr;</a></span></div></div>
 									<div class="textbox-action">
 						<a href="/work/" class="redlink">
 							<span>See our work</span>
@@ -1500,7 +1500,7 @@ recommend a service from 1-10</div>
 						</div>
 									</div>
 									<div class="section-footer js-aos appear">
-						<a href="agency/" class="redlink">
+						<a href="/agency/" class="redlink">
 							<span>About Aenfinite</span>
 						</a>
 					</div>
@@ -1626,7 +1626,7 @@ recommend a service from 1-10</div>
 													<a href="/services/paid-ads/" class="chip-label">Paid Advertising</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/Pay-per-click/" class="chip-label">PPC Campaigns</a>
+													<a href="/services/pay-per-click/" class="chip-label">PPC Campaigns</a>
 												</div>
 																							<div class="chip">
 													<a href="/services/social-media-marketing/" class="chip-label">Social Media Marketing</a>
@@ -1760,7 +1760,7 @@ recommend a service from 1-10</div>
 													<a href="/services/graphic-design/" class="chip-label">Print Design</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/print-design/" class="chip-label">Business Cards</a>
+													<a href="/services/graphic-design/" class="chip-label">Business Cards</a>
 												</div>
 																							<div class="chip">
 													<a href="/services/graphic-design/" class="chip-label">Brochures</a>
@@ -1769,7 +1769,7 @@ recommend a service from 1-10</div>
 													<a href="/services/graphic-design/" class="chip-label">Digital Graphics</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/social-media-design/" class="chip-label">Content Design</a>
+													<a href="/services/social-media-marketing/" class="chip-label">Content Design</a>
 												</div>
 																							<div class="chip">
 													<a href="/services/graphic-design/" class="chip-label">Marketing Materials</a>
@@ -1834,19 +1834,19 @@ recommend a service from 1-10</div>
 													<a href="/services/custom-web-development/" class="chip-label">Custom Web Development</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/software-&-platform-development/" class="chip-label">Software Development</a>
+													<a href="/services/software-and-platform-development/" class="chip-label">Software Development</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/workflow-&-business-automation/" class="chip-label">Business Automation</a>
+													<a href="/services/workflow-and-business-automation/" class="chip-label">Business Automation</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/ai-chatbots-&-virtual-assistants/" class="chip-label">AI Chatbots</a>
+													<a href="/services/ai-chatbots-and-virtual-assistants/" class="chip-label">AI Chatbots</a>
 												</div>
 																							<div class="chip">
 													<a href="/services/custom-web-development/" class="chip-label">Platform Development</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/workflow-&-business-automation/" class="chip-label">Workflow Automation</a>
+													<a href="/services/workflow-and-business-automation/" class="chip-label">Workflow Automation</a>
 												</div>
 																					</div>
 									</div>
@@ -1973,7 +1973,7 @@ recommend a service from 1-10</div>
 			<div class="inner-wrapper">
 				<div class="section-caption js-aos">
 					<div class="section-caption_text">
-						<h2>Aenfinite® Design Agency Work</h2>
+						<h2>Aenfinite® Agency Work</h2>
 					</div>
 				</div>
 				<div class="previews js-aosfadein" data-aos="fade-up" data-aos-offset="300" data-aos-delay="100" data-aos-duration="600">
@@ -2002,7 +2002,7 @@ recommend a service from 1-10</div>
 									</div>									
 									<div class="preview-content" data-index="02">
 										<div class="preview-name preview-name__caption">
-											<a href="../../work/ivywise-education-consultancy/">AfroPopup - Merging Pop with Art and Culture</a>
+											<a href="/featured-work/">AfroPopup - Merging Pop with Art and Culture</a>
 										</div>
 																					<div class="preview-name">Branding</div>
 																					<div class="preview-name">Brand Collateral</div>
@@ -2104,7 +2104,7 @@ recommend a service from 1-10</div>
 											</div>
 				</div>
 				<div class="section-footer js-aos appear" data-aos="fade-up" data-aos-offset="350" data-aos-delay="0" data-aos-duration="500">
-					<a href="../../work/" class="redlink">
+					<a href="/work/" class="redlink">
 						<span>View all projects</span>
 					</a>
 				</div>
@@ -2116,7 +2116,7 @@ recommend a service from 1-10</div>
 						<div class="inner-wrapper">
 							<div class="section-caption js-aos">
 								<div class="section-caption_text">
-									<h2>Aenfinite® Design Agency FAQ</h2>
+									<h2>Aenfinite® Agency FAQ</h2>
 								</div>
 							</div>
 							<div class="faq">
@@ -2201,7 +2201,7 @@ recommend a service from 1-10</div>
 						<div class="footer-caption">
 							<div class="title title__default">
 								<span>Have a Project in Mind? Let’s Build Something Great Together.</span>
-								<a href="contact/" class="redlink">
+								<a href="/contact/" class="redlink">
 									<span>Let’s talk</span>
 								</a>
 							</div>
@@ -2214,19 +2214,19 @@ recommend a service from 1-10</div>
 								<div class="footer-col_caption">Company</div>
 								<div class="footer-col_list">
 									<ul id="menu-footer-company-menu" class="menuss"><li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="/featured-work/">Work</a></li>
-<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="agency/">Agency</a></li>
+<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="/agency/">Agency</a></li>
 <li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="/services/">Services</a></li>
-<li id="menu-item-4127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="contact/">Contact</a></li>
+<li id="menu-item-4127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="/contact/">Contact</a></li>
 								</div>
 							</div>
 							<div class="footer-col">
 								<div class="footer-col_caption">Services</div>
 								<div class="footer-col_list">
-									<ul id="menu-footer-service-menu" class="menuss"><li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a href="services/web-design/">Web Design</a></li>
-<li id="menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2369"><a href="services/wordpress-websites/">WordPress Websites</a></li>
-<li id="menu-item-282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-282"><a href="services/branding/">Branding</a></li>
-<li id="menu-item-1730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="services/packaging-design/">Packaging Design</a></li>
-<li id="menu-item-2259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2259"><a href="services/graphic-design/">Graphic Design</a></li>
+									<ul id="menu-footer-service-menu" class="menuss"><li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a href="/services/web-design/">Web Design</a></li>
+<li id="menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2369"><a href="/services/wordpress-websites/">WordPress Websites</a></li>
+<li id="menu-item-282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-282"><a href="/services/branding/">Branding</a></li>
+<li id="menu-item-1730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="/services/packaging-design/">Packaging Design</a></li>
+<li id="menu-item-2259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2259"><a href="/services/graphic-design/">Graphic Design</a></li>
 </ul>														</div>
 							</div>
 							<div class="footer-col ">
@@ -2235,11 +2235,11 @@ recommend a service from 1-10</div>
 <li id="menu-item-4964" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4964"><a class="js-dropdown-layer-marker" target="_blank" href="https://www.linkedin.com/company/aenfinite">LinkedIn</a></li>
 <li id="menu-item-4964" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4964"><a class="js-dropdown-layer-marker" target="_blank" href="https://www.instagram.com/aenfinite">Instagram</a></li>
 <li id="menu-item-4952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4952"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/">Partner with us</a></li>
-<li id="menu-item-4952-1" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="agency/partner-with-us/white-label-services/">White Label Services</a></li>
-<li id="menu-item-4952-2" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="agency/partner-with-us/referral-program/">Referral Program</a></li>
-<li id="menu-item-4952-3" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="agency/partner-with-us/ghl-services/">GHL Services</a></li>
+<li id="menu-item-4952-1" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/white-label-services/">White Label Services</a></li>
+<li id="menu-item-4952-2" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/referral-program/">Referral Program</a></li>
+<li id="menu-item-4952-3" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/ghl-services/">GHL Services</a></li>
 <li id="menu-item-4953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4953"><a class="js-dropdown-layer-marker" target="_blank" href="mailto:hello@aenfinite.us?subject=Project%20Inquiry">Email</a></li>
-<li id="menu-item-5977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5977"><a class="js-dropdown-layer-marker" href="contact/">Contact</a></li>
+<li id="menu-item-5977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5977"><a class="js-dropdown-layer-marker" href="/contact/">Contact</a></li>
 </ul>								</div>
 							</div>
 							<div class="footer-col " style="padding-top: 15px !important; padding-left: 40px;">
@@ -2268,7 +2268,7 @@ recommend a service from 1-10</div>
 						<div class="footer-locations" style="padding: 20px 0; border-top: 1px solid rgba(255,255,255,0.1);">
 							<div class="footer-col_caption" style="margin-bottom: 10px;">Our Locations</div>
 							<ul style="list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:8px 20px; font-size:14px;">
-<li><a href="https://aenfinite.com" target="_blank" rel="noopener">Denver, CO (HQ)</a></li>
+<li><a href="/" target="_blank" rel="noopener">Denver, CO (HQ)</a></li>
 <li><a href="https://aenfinite.miami" target="_blank" rel="noopener">Miami, FL</a></li>
 <li><a href="https://aenfinite.nyc" target="_blank" rel="noopener">New York, NY</a></li>
 <li><a href="https://aenfinite.boston" target="_blank" rel="noopener">Boston, MA</a></li>
@@ -2303,12 +2303,12 @@ recommend a service from 1-10</div>
 						</div>
 						<div class="menu-nav">
 							<ul id="menu-footer-company-menu-1" class="menuss"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="/featured-work/">Work</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="agency/">Agency</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="/agency/">Agency</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="/services/">Services</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="contact/">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="/contact/">Contact</a></li>
 </ul>						</div>
 						<div class="menu-footer">
-							<a class="menu-contact" href="contact/">Contact</a>
+							<a class="menu-contact" href="/contact/">Contact</a>
 							<a class="menu-email" href="mailto:hello@aenfinite.us">Email us</a>
 						</div>
 					</div>
@@ -2317,7 +2317,7 @@ recommend a service from 1-10</div>
 		
 		</div>
 
-				<a href="contact/" class="to-contact">New Project?</a><a href="#" class="to-meeter" onclick="openCalendlyPopup(event)">Schedule A Meeting</a>
+				<a href="/contact/" class="to-contact">New Project?</a><a href="#" class="to-meeter" onclick="openCalendlyPopup(event)">Schedule A Meeting</a>
 
 <div id="calendly-modal" class="calendly-modal" style="display: none;">
 	<div class="calendly-modal-content">
@@ -2630,7 +2630,7 @@ document.addEventListener('keydown', function(event) {
 					</span>
 					<span class="cookie-banner__message">
 						We use cookies to enhance your user experience. By clicking ACCEPT or continuing to browse, you agree to our
-						<a href="privacy-policy/" class="cookie-banner__link" target="_blank">Privacy Policy</a>.
+						<a href="/privacy-policy/" class="cookie-banner__link" target="_blank">Privacy Policy</a>.
 					</span>
 				</div>
 				<button class="cookie-banner__button">Accept</button>
@@ -2857,7 +2857,7 @@ export default function Page() {
       "name": "Aenfinite",
       "image": "https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg",
       "legalName": "Aenfinite LLC",
-      "description": "Digital innovation agency specializing in web design, branding, UI/UX design, digital marketing, and e-commerce development.",
+      "description": "Full-service digital innovation agency specializing in AI solutions, automation, custom software development, digital marketing, SEO, e-commerce, branding and UI/UX design.",
       "url": "https://aenfinite.us/",
       "logo": "https://aenfinite.us/wp-content/themes/aenfinite.us/images/aenfinite-full.svg",
       "foundingDate": "2017",
@@ -2894,7 +2894,7 @@ export default function Page() {
       "url": "https://aenfinite.us/",
       "name": "Aenfinite - Digital Innovation Agency",
       "alternateName": "Aenfinite®",
-      "description": "Digital innovation agency providing web design, branding, digital marketing, and e-commerce solutions.",
+      "description": "Full-service digital innovation agency providing AI solutions, automation, software development, digital marketing, SEO, web design, branding and e-commerce solutions.",
       "publisher": {"@id": "https://aenfinite.us/#organization"},
       "inLanguage": "en-US",
       "potentialAction": {
@@ -2905,6 +2905,7 @@ export default function Page() {
     },
     {
       "@type": "LocalBusiness",
+      "areaServed": [{"@type":"Country","name":"United States"}],
       "@id": "https://aenfinite.us/#localbusiness",
       "name": "Aenfinite Digital Innovation Agency",
 	"image": "https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg",

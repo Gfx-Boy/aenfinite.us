@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import HtmlPage from '@/components/HtmlPage';
 
 export const metadata: Metadata = {
-  title: "Complete Design & Development Portfolio | All Work | Aenfinite",
+  title: "Complete Design & Development Portfolio | All Work",
   description: "Explore Aenfinite",
   keywords: "portfolio, design portfolio, web design portfolio, branding portfolio, case studies, client work, creative projects, Aenfinite portfolio",
   alternates: { canonical: "https://aenfinite.us/work/", languages: {"x-default":"https://aenfinite.us/work/","en":"https://aenfinite.us/work/"} },
@@ -752,7 +752,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 								<a href="/featured-work/">Work</a>
 							</li>
 							<li class="topnav-item js-topnav-follow-item">
-								<a href="/agency">Agency</a>
+								<a href="/agency/">Agency</a>
 							</li>
 							                            <li class="topnav-item js-topnav-follow-item dropdown js-dropdown">
                                 <a href="/services/">Services</a>
@@ -763,8 +763,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
                                             
 											<li><a href="/services/wordpress-websites/">WordPress Websites</a></li>
 <li><a href="/services/e-commerce-websites/">E-Commerce Websites</a></li>
-											<li><a href="/services/custom-web-development">Custom Web Development</a></li>
-											<li><a href="/services/software-&-platform-development/">Software & Platform Development</a></li>
+											<li><a href="/services/custom-web-development/">Custom Web Development</a></li>
+											<li><a href="/services/software-and-platform-development/">Software & Platform Development</a></li>
 											<li><a href="/services/app-development/">App Development</a></li>
 											<li><a href="/services/web-design/">Website Design & Development</a></li>
 											<li><a href="/services/web-design-and-branding-for-real-estate/">Real Estate Web Solutions</a></li>                                      </ul>
@@ -785,7 +785,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
                                         <ul class="sub-menu">
                                             <li><a href="/services/digital-marketing/">Digital Marketing Strategy</a></li>
                                             <li><a href="/services/search-engine-optimization/">Search Engine Optimization (SEO)</a></li>
-                                            <li><a href="/services/pay-per-click">Pay-Per-Click (PPC) Advertising</a></li>
+                                            <li><a href="/services/pay-per-click/">Pay-Per-Click (PPC) Advertising</a></li>
                                             <li><a href="/services/social-media-marketing/">Social Media Marketing</a></li> 
                                             
                                         </ul>
@@ -793,8 +793,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#">AI & Technology Solutions ›</a>
                                         <ul class="sub-menu">
-                                            <li><a href="/services/ai-chatbots-&-virtual-assistants/">AI Chatbots & Virtual Assistants</a></li>
-                                            <li><a href="/services/workflow-&-business-automation/">Workflow & Business Automation</a></li>
+                                            <li><a href="/services/ai-chatbots-and-virtual-assistants/">AI Chatbots & Virtual Assistants</a></li>
+                                            <li><a href="/services/workflow-and-business-automation/">Workflow & Business Automation</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -973,7 +973,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 				<ul id="menu-work-page-categories-filter" class="projects-nav"><li id="menu-item-3197" class="menu-item projects-nav_item menu-item-object-category active menu-item-3197"><a href="/work/" aria-current="page">All Work</a></li>
 <li id="menu-item-3730" class="menu-item menu-item-type-post_type projects-nav_item menu-item-3730"><a href="/featured-work/">Featured Work</a></li>
 <li id="menu-item-3168" class="menu-item projects-nav_item menu-item-object-category menu-item-3168"><a href="/work/branding/">Branding</a></li>
-<li id="menu-item-3169" class="menu-item projects-nav_item menu-item-object-category menu-item-3169"><a href="/work/web-design-&-development/">Web Design and Development</a></li>
+<li id="menu-item-3169" class="menu-item projects-nav_item menu-item-object-category menu-item-3169"><a href="/work/web-design-and-development/">Web Design and Development</a></li>
 <li id="menu-item-7016" class="menu-item projects-nav_item menu-item-object-category menu-item-7016"><a href="/work/logo-design/">Logo Design</a></li>
 <li id="menu-item-7017" class="menu-item projects-nav_item menu-item-object-category menu-item-7017"><a href="/work/graphic-design/">Graphic Design</a></li>
 <li id="menu-item-3174" class="menu-item projects-nav_item menu-item-object-category menu-item-3174"><a href="/work/packaging-design/">Packaging Design</a></li>
@@ -992,9 +992,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">ASC Media Wall Design - Large Format Display</a>
 									</div>
 									<div class="preview-name"><a href="">Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Brand Identity</a></div>
-									<div class="preview-name"><a href="../trade-show-booth-design/">Exhibition Design</a></div>
-									<div class="preview-name"><a href="../print-design/">Print Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Identity</a></div>
+									<div class="preview-name"><a href="/services/trade-show-booth-design/">Exhibition Design</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Print Design</a></div>
 								</div>
 							</div>
 						</div>
@@ -1012,9 +1012,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Trade Show Booth Design - Professional Exhibition</a>
 									</div>
 									<div class="preview-name"><a href="">Branding</a></div>
-									<div class="preview-name"><a href="../trade-show-booth-design/">Booth Design</a></div>
-									<div class="preview-name"><a href="../3d-design/">3D Design</a></div>
-									<div class="preview-name"><a href="../branding/">Branding</a></div>
+									<div class="preview-name"><a href="/services/trade-show-booth-design/">Booth Design</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">3D Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Branding</a></div>
 								</div>
 							</div>
 						</div>
@@ -1032,9 +1032,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Professional Brand Mockup - Visual Identity</a>
 									</div>
 									<div class="preview-name"><a href="">Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Brand Identity</a></div>
-									<div class="preview-name"><a href="../brand-collateral/">Brand Collateral</a></div>
-									<div class="preview-name"><a href="../print-design/">Print Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Identity</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Collateral</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Print Design</a></div>
 								</div>
 							</div>
 						</div>
@@ -1052,9 +1052,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Professional Marketing Design - Brand Identity</a>
 									</div>
 									<div class="preview-name"><a href="">Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Brand Strategy</a></div>
-									<div class="preview-name"><a href="../brand-collateral/">Brand Collateral</a></div>
-									<div class="preview-name"><a href="../digital-marketing/">Digital Marketing</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Strategy</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Collateral</a></div>
+									<div class="preview-name"><a href="/services/digital-marketing/">Digital Marketing</a></div>
 								</div>
 							</div>
 						</div>
@@ -1073,9 +1073,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">CycleThe6 - Complete Logo Design Collection</a>
 									</div>
 									<div class="preview-name"><a href="">Branding</a></div>
-									<div class="preview-name"><a href="../logo-design/">Logo Design</a></div>
-									<div class="preview-name"><a href="../graphic-design/">Graphic Design</a></div>
-									<div class="preview-name"><a href="../brand-collateral/">Brand Collateral</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Logo Design</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Graphic Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Collateral</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox collection -->
@@ -1103,9 +1103,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Muskfume - Luxury Fragrance Brand Design</a>
 									</div>
 									<div class="preview-name"><a href="">Branding</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Packaging Design</a></div>
-									<div class="preview-name"><a href="../graphic-design/">Graphic Design</a></div>
-									<div class="preview-name"><a href="../brand-collateral/">Brand Collateral</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Packaging Design</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Graphic Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Collateral</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox collection -->
@@ -1130,9 +1130,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/algopros/">AlgoPros - Professional Logo Design & Brand Identity Studio</a>
 									</div>
 									<div class="preview-name"><a href="">Branding</a></div>
-									<div class="preview-name"><a href="../logo-design/">Logo Design</a></div>
-									<div class="preview-name"><a href="../graphic-design/">Graphic Design</a></div>
-									<div class="preview-name"><a href="../brand-collateral/">Brand Identity</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Logo Design</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Graphic Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Identity</a></div>
 								</div>
 							</div>
 						</div>
@@ -1149,9 +1149,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/blue-vine-marketing/">Blue Vine Marketing - Digital Marketing Agency Website</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">UI/UX Design</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Custom Development</a></div>
-									<div class="preview-name"><a href="../software-&-platform-development/">Platform Development</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">UI/UX Design</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Custom Development</a></div>
+									<div class="preview-name"><a href="/services/software-and-platform-development/">Platform Development</a></div>
 								</div>
 							</div>
 						</div>
@@ -1169,9 +1169,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/robophil/">RoboPhil - AI Trading Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../software-&-platform-development/">Platform Development</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">UI/UX Design</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Custom Development</a></div>
+									<div class="preview-name"><a href="/services/software-and-platform-development/">Platform Development</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">UI/UX Design</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Custom Development</a></div>
 								</div>
 							</div>
 						</div>
@@ -1189,9 +1189,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/husnohaya/">HusnOhaya Women - Premium Hijab E-commerce Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../e-commerce-websites/">E-commerce Development</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">UI/UX Design</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Custom Development</a></div>
+									<div class="preview-name"><a href="/services/e-commerce-websites/">E-commerce Development</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">UI/UX Design</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Custom Development</a></div>
 								</div>
 							</div>
 						</div>
@@ -1209,9 +1209,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/khatech/">KhaTtech - 360° Digital Marketing Solutions Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../digital-marketing/">Digital Marketing</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">UI/UX Design</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Custom Development</a></div>
+									<div class="preview-name"><a href="/services/digital-marketing/">Digital Marketing</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">UI/UX Design</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Custom Development</a></div>
 								</div>
 							</div>
 						</div>
@@ -1229,9 +1229,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/afropopup/">AfroPop - Craft Soda E-commerce & Artist Collaboration Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../e-commerce-websites/">E-commerce Development</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">UI/UX Design</a></div>
-									<div class="preview-name"><a href="../branding/">Branding & Identity</a></div>
+									<div class="preview-name"><a href="/services/e-commerce-websites/">E-commerce Development</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">UI/UX Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Branding & Identity</a></div>
 								</div>
 							</div>
 						</div>
@@ -1251,9 +1251,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/feiro/">Feiro - Modern Business Solutions & Brand Identity</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../branding/">Branding & Identity</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">UI/UX Design</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Business Solutions</a></div>
+									<div class="preview-name"><a href="/services/branding/">Branding & Identity</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">UI/UX Design</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Business Solutions</a></div>
 								</div>
 							</div>
 						</div>
@@ -1271,9 +1271,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/amkiservice/">AM-KI Services - Business Compliance & Licensing Solutions</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Business Platform</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Professional UI/UX</a></div>
-									<div class="preview-name"><a href="../software-&-platform-development/">Compliance Solutions</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Business Platform</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Professional UI/UX</a></div>
+									<div class="preview-name"><a href="/services/software-and-platform-development/">Compliance Solutions</a></div>
 								</div>
 							</div>
 						</div>
@@ -1291,9 +1291,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Luna Wick - Creative Brand Design & Web Development</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../branding/">Creative Branding</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Artistic UI/UX</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Custom Development</a></div>
+									<div class="preview-name"><a href="/services/branding/">Creative Branding</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Artistic UI/UX</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Custom Development</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox -->
@@ -1316,9 +1316,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Modern Corporate Website - Professional Business Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Corporate UI/UX</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Business Platform</a></div>
-									<div class="preview-name"><a href="../branding/">Professional Branding</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Corporate UI/UX</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Business Platform</a></div>
+									<div class="preview-name"><a href="/services/branding/">Professional Branding</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox collection -->
@@ -1340,9 +1340,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">E-commerce Platform - Online Shopping Solution</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../e-commerce-websites/">E-commerce Development</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Shopping UI/UX</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Custom Platform</a></div>
+									<div class="preview-name"><a href="/services/e-commerce-websites/">E-commerce Development</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Shopping UI/UX</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Custom Platform</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox collection -->
@@ -1364,9 +1364,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Creative Portfolio Website - Artistic Showcase Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Web Design & Development</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Creative UI/UX</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Portfolio Platform</a></div>
-									<div class="preview-name"><a href="../branding/">Creative Branding</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Creative UI/UX</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Portfolio Platform</a></div>
+									<div class="preview-name"><a href="/services/branding/">Creative Branding</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox collection -->
@@ -1387,9 +1387,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Cakeo - Modern Bakery Logo Design</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Brand Identity</a></div>
-									<div class="preview-name"><a href="../branding/">Food & Beverage</a></div>
-									<div class="preview-name"><a href="../branding/">Bakery Branding</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Brand Identity</a></div>
+									<div class="preview-name"><a href="/services/branding/">Food & Beverage</a></div>
+									<div class="preview-name"><a href="/services/branding/">Bakery Branding</a></div>
 								</div>
 							</div>
 						</div>
@@ -1407,9 +1407,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">CycleThe6 - Athletic Brand Logo</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Sports Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Athletic Identity</a></div>
-									<div class="preview-name"><a href="../branding/">Fitness Logo</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Sports Branding</a></div>
+									<div class="preview-name"><a href="/services/branding/">Athletic Identity</a></div>
+									<div class="preview-name"><a href="/services/branding/">Fitness Logo</a></div>
 								</div>
 							</div>
 						</div>
@@ -1427,9 +1427,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Dynamic Consulting - Corporate Logo</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Corporate Identity</a></div>
-									<div class="preview-name"><a href="../branding/">Business Consulting</a></div>
-									<div class="preview-name"><a href="../branding/">Professional Services</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Corporate Identity</a></div>
+									<div class="preview-name"><a href="/services/branding/">Business Consulting</a></div>
+									<div class="preview-name"><a href="/services/branding/">Professional Services</a></div>
 								</div>
 							</div>
 						</div>
@@ -1447,9 +1447,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Muraaco - Creative Brand Logo</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Creative Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Modern Identity</a></div>
-									<div class="preview-name"><a href="../branding/">Abstract Design</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Creative Branding</a></div>
+									<div class="preview-name"><a href="/services/branding/">Modern Identity</a></div>
+									<div class="preview-name"><a href="/services/branding/">Abstract Design</a></div>
 								</div>
 							</div>
 						</div>
@@ -1467,9 +1467,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Muskfume - Fragrance Brand Logo</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Beauty & Cosmetics</a></div>
-									<div class="preview-name"><a href="../branding/">Luxury Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Fragrance Identity</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Beauty & Cosmetics</a></div>
+									<div class="preview-name"><a href="/services/branding/">Luxury Branding</a></div>
+									<div class="preview-name"><a href="/services/branding/">Fragrance Identity</a></div>
 								</div>
 							</div>
 						</div>
@@ -1487,9 +1487,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Nexit - Technology Brand Logo</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Tech Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Digital Identity</a></div>
-									<div class="preview-name"><a href="../branding/">Startup Logo</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Tech Branding</a></div>
+									<div class="preview-name"><a href="/services/branding/">Digital Identity</a></div>
+									<div class="preview-name"><a href="/services/branding/">Startup Logo</a></div>
 								</div>
 							</div>
 						</div>
@@ -1511,9 +1511,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/algopros/">Algopros - Algorithm Solutions Brand</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Tech Solutions</a></div>
-									<div class="preview-name"><a href="../branding/">Algorithm Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Software Identity</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Tech Solutions</a></div>
+									<div class="preview-name"><a href="/services/branding/">Algorithm Branding</a></div>
+									<div class="preview-name"><a href="/services/branding/">Software Identity</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox -->
@@ -1536,9 +1536,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/feiro/">Feiro - Creative Brand Logo</a>
 									</div>
 									<div class="preview-name"><a href="">Logo Design</a></div>
-									<div class="preview-name"><a href="../logo-design/">Creative Branding</a></div>
-									<div class="preview-name"><a href="../branding/">Modern Identity</a></div>
-									<div class="preview-name"><a href="../branding/">Dynamic Logo</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Creative Branding</a></div>
+									<div class="preview-name"><a href="/services/branding/">Modern Identity</a></div>
+									<div class="preview-name"><a href="/services/branding/">Dynamic Logo</a></div>
 								</div>
 							</div>
 						</div>
@@ -1555,9 +1555,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">HQ - Social Media Design & Digital Graphics</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../social-media-design/">Social Media Design</a></div>
-									<div class="preview-name"><a href="../digital-marketing/">Digital Graphics</a></div>
-									<div class="preview-name"><a href="../branding/">Brand Visuals</a></div>
+									<div class="preview-name"><a href="/services/social-media-marketing/">Social Media Design</a></div>
+									<div class="preview-name"><a href="/services/digital-marketing/">Digital Graphics</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Visuals</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox -->
@@ -1582,9 +1582,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Kanchwala - Brand Design & Marketing Materials</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../branding/">Brand Design</a></div>
-									<div class="preview-name"><a href="../social-media-design/">Marketing Materials</a></div>
-									<div class="preview-name"><a href="../print-design/">Print Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Design</a></div>
+									<div class="preview-name"><a href="/services/social-media-marketing/">Marketing Materials</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Print Design</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox -->
@@ -1616,9 +1616,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Kohat - Seasonal Design & Event Graphics</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../social-media-design/">Event Graphics</a></div>
-									<div class="preview-name"><a href="../digital-marketing/">Seasonal Design</a></div>
-									<div class="preview-name"><a href="../branding/">Visual Communication</a></div>
+									<div class="preview-name"><a href="/services/social-media-marketing/">Event Graphics</a></div>
+									<div class="preview-name"><a href="/services/digital-marketing/">Seasonal Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Visual Communication</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox -->
@@ -1642,9 +1642,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">TBS - Professional Brand Design & Corporate Identity</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../branding/">Corporate Identity</a></div>
-									<div class="preview-name"><a href="../logo-design/">Professional Branding</a></div>
-									<div class="preview-name"><a href="../print-design/">Business Materials</a></div>
+									<div class="preview-name"><a href="/services/branding/">Corporate Identity</a></div>
+									<div class="preview-name"><a href="/services/logo-design/">Professional Branding</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Business Materials</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox -->
@@ -1669,9 +1669,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Professional Packaging Design - Brand Package Solution</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Packaging Design</a></div>
-									<div class="preview-name"><a href="../branding/">Brand Packaging</a></div>
-									<div class="preview-name"><a href="../print-design/">Product Design</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Packaging Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Brand Packaging</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Product Design</a></div>
 								</div>
 							</div>
 						</div>
@@ -1689,9 +1689,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">HUNGOVR - Packaging Design & Product Branding</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Packaging Design</a></div>
-									<div class="preview-name"><a href="../branding/">Product Branding</a></div>
-									<div class="preview-name"><a href="../print-design/">Package Graphics</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Packaging Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Product Branding</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Package Graphics</a></div>
 								</div>
 							</div>
 						</div>
@@ -1709,9 +1709,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">RIVIERA - Luxury Packaging Design</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Packaging Design</a></div>
-									<div class="preview-name"><a href="../branding/">Luxury Branding</a></div>
-									<div class="preview-name"><a href="../print-design/">Premium Design</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Packaging Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Luxury Branding</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Premium Design</a></div>
 								</div>
 							</div>
 						</div>
@@ -1729,9 +1729,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Swag Box Design - Corporate Gift Packaging</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Packaging Design</a></div>
-									<div class="preview-name"><a href="../branding/">Corporate Branding</a></div>
-									<div class="preview-name"><a href="../print-design/">Gift Packaging</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Packaging Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Corporate Branding</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Gift Packaging</a></div>
 								</div>
 							</div>
 						</div>
@@ -1749,9 +1749,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Packaging Design Mockup Collection</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Packaging Design</a></div>
-									<div class="preview-name"><a href="../branding/">Product Branding</a></div>
-									<div class="preview-name"><a href="../print-design/">Package Mockups</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Packaging Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Product Branding</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Package Mockups</a></div>
 								</div>
 							</div>
 							<!-- Hidden images for lightbox -->
@@ -1779,9 +1779,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Snow Plow Packaging - Industrial Product Design</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Packaging Design</a></div>
-									<div class="preview-name"><a href="../branding/">Industrial Branding</a></div>
-									<div class="preview-name"><a href="../print-design/">Product Packaging</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Packaging Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Industrial Branding</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Product Packaging</a></div>
 								</div>
 							</div>
 						</div>
@@ -1799,9 +1799,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="#">Soft Toy Hang Tag Design - Product Labels</a>
 									</div>
 									<div class="preview-name"><a href="">Graphic Design</a></div>
-									<div class="preview-name"><a href="../packaging-design/">Label Design</a></div>
-									<div class="preview-name"><a href="../branding/">Product Branding</a></div>
-									<div class="preview-name"><a href="../print-design/">Tag Design</a></div>
+									<div class="preview-name"><a href="/services/packaging-design/">Label Design</a></div>
+									<div class="preview-name"><a href="/services/branding/">Product Branding</a></div>
+									<div class="preview-name"><a href="/services/graphic-design/">Tag Design</a></div>
 								</div>
 							</div>
 						</div>
@@ -1818,9 +1818,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/fiscoclic/">FiscoClic - Cloud-Based Mexican Electronic Invoicing CFDI App</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">Business Apps</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Mobile UI/UX</a></div>
-									<div class="preview-name"><a href="../custom-web-development/">Cloud Integration</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Business Apps</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Mobile UI/UX</a></div>
+									<div class="preview-name"><a href="/services/custom-web-development/">Cloud Integration</a></div>
 								</div>
 							</div>
 						</div>
@@ -1838,9 +1838,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/lumea/">Lumea - Smart Wellness & Light Therapy Mobile App</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">Wellness Apps</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Health UI/UX</a></div>
-									<div class="preview-name"><a href="../app-development/">Smart Technology</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Wellness Apps</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Health UI/UX</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Smart Technology</a></div>
 								</div>
 							</div>
 						</div>
@@ -1858,9 +1858,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/mindfit/">Mindfit - Mental Wellness & Fitness App</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">Fitness Apps</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Wellness UI/UX</a></div>
-									<div class="preview-name"><a href="../app-development/">Mental Health</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Fitness Apps</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Wellness UI/UX</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Mental Health</a></div>
 								</div>
 							</div>
 						</div>
@@ -1878,9 +1878,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/neocert/">NeoCert - Concert Booking & Management Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">Event Apps</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Entertainment UI/UX</a></div>
-									<div class="preview-name"><a href="../app-development/">Booking Systems</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Event Apps</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Entertainment UI/UX</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Booking Systems</a></div>
 								</div>
 							</div>
 						</div>
@@ -1898,9 +1898,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/neurolinker/">Neurolinker - Brain-Computer Interface & Neurotechnology Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">Neurotechnology</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Advanced UI/UX</a></div>
-									<div class="preview-name"><a href="../software-&-platform-development/">Brain-Computer Interface</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Neurotechnology</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Advanced UI/UX</a></div>
+									<div class="preview-name"><a href="/services/software-and-platform-development/">Brain-Computer Interface</a></div>
 								</div>
 							</div>
 						</div>
@@ -1918,9 +1918,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/olly/">Olly - Smart Personal Assistant & Productivity Mobile App</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">AI Assistant</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Productivity UI/UX</a></div>
-									<div class="preview-name"><a href="../ai-chatbots-&-virtual-assistants/">Smart Technology</a></div>
+									<div class="preview-name"><a href="/services/app-development/">AI Assistant</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Productivity UI/UX</a></div>
+									<div class="preview-name"><a href="/services/ai-chatbots-and-virtual-assistants/">Smart Technology</a></div>
 								</div>
 							</div>
 						</div>
@@ -1938,9 +1938,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/quarena/">Quarena - Advanced Trading Platform UI/UX & App Development</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">Trading Apps</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Financial UI/UX</a></div>
-									<div class="preview-name"><a href="../app-development/">Cryptocurrency</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Trading Apps</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Financial UI/UX</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Cryptocurrency</a></div>
 								</div>
 							</div>
 						</div>
@@ -1958,9 +1958,9 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 										<a href="/work/ansu/">Ansu - Advanced Neural Interface & Brain-Computer Technology Platform</a>
 									</div>
 									<div class="preview-name"><a href="">Mobile Apps</a></div>
-									<div class="preview-name"><a href="../app-development/">Neural Technology</a></div>
-									<div class="preview-name"><a href="../ui-ux-design/">Advanced UI/UX</a></div>
-									<div class="preview-name"><a href="../software-&-platform-development/">Brain Technology</a></div>
+									<div class="preview-name"><a href="/services/app-development/">Neural Technology</a></div>
+									<div class="preview-name"><a href="/services/ui-ux-design/">Advanced UI/UX</a></div>
+									<div class="preview-name"><a href="/services/software-and-platform-development/">Brain Technology</a></div>
 								</div>
 							</div>
 						</div>
@@ -2078,7 +2078,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 													<a href="/services/paid-ads/" class="chip-label">Paid Advertising</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/Pay-per-click/" class="chip-label">PPC Campaigns</a>
+													<a href="/services/pay-per-click/" class="chip-label">PPC Campaigns</a>
 												</div>
 																							<div class="chip">
 													<a href="/services/social-media-marketing/" class="chip-label">Social Media Marketing</a>
@@ -2285,19 +2285,19 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 													<a href="/services/custom-web-development/" class="chip-label">Custom Web Development</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/software-&-platform-development/" class="chip-label">Software Development</a>
+													<a href="/services/software-and-platform-development/" class="chip-label">Software Development</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/workflow-&-business-automation/" class="chip-label">Business Automation</a>
+													<a href="/services/workflow-and-business-automation/" class="chip-label">Business Automation</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/ai-chatbots-&-virtual-assistants/" class="chip-label">AI Chatbots</a>
+													<a href="/services/ai-chatbots-and-virtual-assistants/" class="chip-label">AI Chatbots</a>
 												</div>
 																							<div class="chip">
 													<a href="/services/custom-web-development/" class="chip-label">Platform Development</a>
 												</div>
 																							<div class="chip">
-													<a href="/services/workflow-&-business-automation/" class="chip-label">Workflow Automation</a>
+													<a href="/services/workflow-and-business-automation/" class="chip-label">Workflow Automation</a>
 												</div>
 																					</div>
 									</div>
@@ -2405,7 +2405,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 						<div class="footer-caption">
 							<div class="title title__default">
 								<span>Have a Project in Mind? Let’s Build Something Great Together.</span>
-								<a href="../../contact/" class="redlink">
+								<a href="/contact/" class="redlink">
 									<span>let's talk</span>
 								</a>
 							</div>
@@ -2418,11 +2418,11 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 								<div class="footer-col_caption">Company</div>
 								<div class="footer-col_list">
 									<ul id="menu-footer-company-menu" class="menuss"><li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="/featured-work/">Work</a></li>
-<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="../../agency/">Agency</a></li>
+<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="/agency/">Agency</a></li>
 <li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="/services/">Services</a></li>
 
 
-<li id="menu-item-4127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="../../contact/">Contact</a></li>
+<li id="menu-item-4127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="/contact/">Contact</a></li>
 								</div>
 							</div>
 							<div class="footer-col">
@@ -2441,12 +2441,12 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 								<div class="footer-col_list">
 
 <li id="menu-item-4966" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4966"><a class="js-dropdown-layer-marker" target="_blank" href="https://www.instagram.com/Aenfinite/">Instagram</a></li>
-<li id="menu-item-4952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4952"><a class="js-dropdown-layer-marker" href="../../agency/partner-with-us/">Partner with us</a></li>
-<li id="menu-item-4952-1" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="../../agency/partner-with-us/white-label-services/">White Label Services</a></li>
-<li id="menu-item-4952-2" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="../../agency/partner-with-us/referral-program/">Referral Program</a></li>
-<li id="menu-item-4952-3" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="../../agency/partner-with-us/ghl-services/">GHL Services</a></li>
+<li id="menu-item-4952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4952"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/">Partner with us</a></li>
+<li id="menu-item-4952-1" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/white-label-services/">White Label Services</a></li>
+<li id="menu-item-4952-2" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/referral-program/">Referral Program</a></li>
+<li id="menu-item-4952-3" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="js-dropdown-layer-marker" href="/agency/partner-with-us/ghl-services/">GHL Services</a></li>
 <li id="menu-item-4953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4953"><a class="js-dropdown-layer-marker" target="_blank" href="mailto:hello@aenfinite.us?subject=Project%20Inquiry">Email</a></li>
-<li id="menu-item-5977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5977"><a class="js-dropdown-layer-marker" href="../../contact/">Contact</a></li>
+<li id="menu-item-5977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5977"><a class="js-dropdown-layer-marker" href="/contact/">Contact</a></li>
 </ul>								</div>
 							</div>
 							<div class="footer-col " style="padding-top: 15px !important; padding-left: 40px;">
@@ -2475,7 +2475,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 						<div class="footer-locations" style="padding: 20px 0; border-top: 1px solid rgba(255,255,255,0.1);">
 							<div class="footer-col_caption" style="margin-bottom: 10px;">Our Locations</div>
 							<ul style="list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:8px 20px; font-size:14px;">
-<li><a href="https://aenfinite.com" target="_blank" rel="noopener">Denver, CO (HQ)</a></li>
+<li><a href="/" target="_blank" rel="noopener">Denver, CO (HQ)</a></li>
 <li><a href="https://aenfinite.miami" target="_blank" rel="noopener">Miami, FL</a></li>
 <li><a href="https://aenfinite.nyc" target="_blank" rel="noopener">New York, NY</a></li>
 <li><a href="https://aenfinite.boston" target="_blank" rel="noopener">Boston, MA</a></li>
@@ -2512,13 +2512,13 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 						</div>
 						<div class="menu-nav">
 							<ul id="menu-footer-company-menu-1" class="menuss"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="/featured-work/">Work</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="../../agency/">Agency</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="/agency/">Agency</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="/services/">Services</a></li>
 
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="../../contact/">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4127"><a href="/contact/">Contact</a></li>
 </ul>						</div>
 						<div class="menu-footer">
-							<a class="menu-contact" href="../../contact/">Contact</a>
+							<a class="menu-contact" href="/contact/">Contact</a>
 							<a class="menu-email" href="mailto:hello@aenfinite.us">Email us</a>
 						</div>
 					</div>
@@ -2527,7 +2527,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 		
 		</div>
 
-				<a href="contact/" class="to-contact">New Project?</a><a href="#" class="to-meeter" onclick="openCalendlyPopup(event)">Schedule A Meeting</a>
+				<a href="/contact/" class="to-contact">New Project?</a><a href="#" class="to-meeter" onclick="openCalendlyPopup(event)">Schedule A Meeting</a>
 
 
 <div id="calendly-modal" class="calendly-modal" style="display: none;">
@@ -3043,7 +3043,7 @@ document.addEventListener('keydown', function(event) {
 					</span>
 					<span class="cookie-banner__message">
 						We use cookies to enhance your user experience. By clicking ACCEPT or continuing to browse, you agree to our
-						<a href="../../privacy-policy/" class="cookie-banner__link" target="_blank">Privacy Policy</a>.
+						<a href="/privacy-policy/" class="cookie-banner__link" target="_blank">Privacy Policy</a>.
 					</span>
 				</div>
 				<button class="cookie-banner__button">Accept</button>

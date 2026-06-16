@@ -91,64 +91,10 @@ const nextConfig: NextConfig = {
         destination: '/cities/san-diego-ca/web-design-marketing-agency/',
         permanent: true,
       },
-      // Work Ansu case fix
-      {
-        source: '/work/Ansu/',
-        destination: '/work/ansu/',
-        permanent: true,
-      },
-      // Work case-sensitive fixes
-      {
-        source: '/work/Cimeo-Vision/',
-        destination: '/work/cimeo-vision/',
-        permanent: true,
-      },
-      {
-        source: '/work/Fiscoclic/',
-        destination: '/work/fiscoclic/',
-        permanent: true,
-      },
-      {
-        source: '/work/Global-Design-Solution/',
-        destination: '/work/global-design-solution/',
-        permanent: true,
-      },
-      {
-        source: '/work/Husnohaya/',
-        destination: '/work/husnohaya/',
-        permanent: true,
-      },
-      {
-        source: '/work/Neocert/',
-        destination: '/work/neocert/',
-        permanent: true,
-      },
-      {
-        source: '/work/Neurolinker/',
-        destination: '/work/neurolinker/',
-        permanent: true,
-      },
-      {
-        source: '/work/Olly/',
-        destination: '/work/olly/',
-        permanent: true,
-      },
-      {
-        source: '/work/RoboPhil/',
-        destination: '/work/robophil/',
-        permanent: true,
-      },
-      // Services case-sensitive and old URL fixes
-      {
-        source: '/services/Custom-Web-Development/',
-        destination: '/services/custom-web-development/',
-        permanent: true,
-      },
-      {
-        source: '/services/Pay-per-click/',
-        destination: '/services/pay-per-click/',
-        permanent: true,
-      },
+      // NOTE: case-fix redirects (e.g. /work/Olly/ -> /work/olly/) were removed.
+      // Next.js matches redirect sources case-INsensitively, so each of those
+      // rules also matched its own destination and caused an infinite 308 loop,
+      // making the pages unreachable. Case normalization now lives in middleware.ts.
       {
         source: '/services/website-design/',
         destination: '/services/web-design/',

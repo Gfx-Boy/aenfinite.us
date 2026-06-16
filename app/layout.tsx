@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'Aenfinite® | Professional Digital Innovation Agency',
     template: '%s | Aenfinite®',
   },
-  description: 'Aenfinite® is a professional digital innovation agency in United States specializing in custom web design, brand identity, UI/UX design, digital marketing, e-commerce development, and comprehensive digital transformation solutions.',
+  description: 'Aenfinite® is a professional digital innovation agency in United States delivering AI solutions & automation, custom software and app development, SEO & digital marketing, e-commerce, branding, UI/UX design, and digital transformation solutions.',
   icons: {
     icon: [
       { url: '/wp-content/themes/aenfinite.us/favicon/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
@@ -50,6 +50,12 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <head>
+        {/* Local SEO geo signals */}
+        <meta name="geo.region" content="US" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.position" content="39.7392;-104.9903" />
+        <meta name="ICBM" content="39.7392, -104.9903" />
+
         {/* DNS prefetch & preconnect for speed */}
 
         {/* HREFLANG TAGS - Global language alternates */}

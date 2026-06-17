@@ -926,8 +926,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 							  		<div class="con-avatar">
 										<img src="/wp-content/themes/aenfinite.us/images/boy3.webp" alt="Blue Vine Marketing Team Lead" class="img-avatar" loading="lazy" decoding="async">
 										<div>
-											<p class="par-avatar" itemprop="author">
-												<b> Marketing Team Lead, John Keri</b><br>
+											<p class="par-avatar" itemprop="author" itemscope itemtype="https://schema.org/Person">
+												<b itemprop="name"> Marketing Team Lead, John Keri</b><br>
 												Blue Vine Marketing Solutions											</p>
 										</div>
 							  		</div>

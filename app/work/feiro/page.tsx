@@ -995,8 +995,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 							  		<div class="con-avatar">
 										<img src="/wp-content/themes/aenfinite.us/images/testimonial6.webp" alt="Alexandra Chen - Feiro CEO & Founder" class="img-avatar" loading="lazy" decoding="async">
 										<div>
-											<p class="par-avatar" itemprop="author">
-												<b>Alexandra Chen,</b><br>
+											<p class="par-avatar" itemprop="author" itemscope itemtype="https://schema.org/Person">
+												<b itemprop="name">Alexandra Chen,</b><br>
 												CEO & Founder, Feiro											</p>
 										</div>
 							  		</div>

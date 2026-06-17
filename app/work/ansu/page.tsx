@@ -1035,8 +1035,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 							  		<div class="con-avatar">
 										<img src="/wp-content/themes/aenfinite.us/images/testimonial4.webp" alt="Dr. Marcus Chen - Ansu CTO" class="img-avatar" loading="lazy" decoding="async">
 										<div>
-											<p class="par-avatar" itemprop="author">
-												<b>✨ Dr. Marcus Chen,</b><br>
+											<p class="par-avatar" itemprop="author" itemscope itemtype="https://schema.org/Person">
+												<b itemprop="name">✨ Dr. Marcus Chen,</b><br>
 												CTO & Co-Founder, Ansu Neural Technologies											</p>
 										</div>
 							  		</div>

@@ -954,8 +954,8 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 							  		<div class="con-avatar">
 										<img src="/wp-content/themes/aenfinite.us/images/IMG_7939.webp" alt="HusnOhaya Women Customer" class="img-avatar" loading="lazy" decoding="async">
 										<div>
-											<p class="par-avatar" itemprop="author">
-												<b>Zull Hussain</b><br>
+											<p class="par-avatar" itemprop="author" itemscope itemtype="https://schema.org/Person">
+												<b itemprop="name">Zull Hussain</b><br>
 												HusnOhaya CEO</p>
 										</div>
 							  		</div>

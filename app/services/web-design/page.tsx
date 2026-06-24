@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import HtmlPage from '@/components/HtmlPage';
 
 export const metadata: Metadata = {
-  title: "Professional UI/UX Design Services | User Interface & Experience Design",
-  description: "Enhance your digital experience with Aenfinite",
+  title: "Professional Web Design Services | Custom Responsive Websites",
+  description: "Aenfinite designs fast, mobile-first, custom websites that convert. Responsive layouts, SEO-ready code, and on-brand visuals built for performance.",
   keywords: "web design, website design, responsive web design, modern web design, creative web design, professional website design, UI design, Aenfinite",
   alternates: { canonical: "https://aenfinite.us/services/web-design/", languages: {"x-default":"https://aenfinite.us/services/web-design/","en":"https://aenfinite.us/services/web-design/"} },
-  openGraph: {"title":"Professional UI/UX Design Services | User Interface & Experience Design | Aenfinite®","description":"Enhance your digital experience with Aenfinite","url":"https://aenfinite.us/services/ui-ux-design/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"}]},
-  twitter: {"card":"summary_large_image","title":"Professional UI/UX Design Services | User Interface & Experience Design | Aenfinite®","description":"Enhance your digital experience with Aenfinite","images":["https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"]},
+  openGraph: {"title":"Professional Web Design Services | Custom Responsive Websites | Aenfinite®","description":"Aenfinite designs fast, mobile-first, custom websites that convert. Responsive layouts, SEO-ready code, and on-brand visuals built for performance.","url":"https://aenfinite.us/services/web-design/","siteName":"Aenfinite","type":"website","images":[{"url":"https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"}]},
+  twitter: {"card":"summary_large_image","title":"Professional Web Design Services | Custom Responsive Websites | Aenfinite®","description":"Aenfinite designs fast, mobile-first, custom websites that convert. Responsive layouts, SEO-ready code, and on-brand visuals built for performance.","images":["https://aenfinite.us/wp-content/themes/aenfinite.us/images/thumbnail.jpg"]},
   robots: { index: true, follow: true },
 };
 
@@ -1124,7 +1124,7 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 									<li class="menu-item menu-item-has-children">
 										<a href="#">Design & Creative Services ›</a>
 										<ul class="sub-menu">
-											<li><a href="/services/ui-ux-design/">UI/UX Design</a></li>
+											<li><a href="/services/web-design/">UI/UX Design</a></li>
 											<li><a href="/services/branding/">Brand Identity & Strategy</a></li>
 											<li><a href="/services/graphic-design/">Graphic Design</a></li> <li><a href="/services/logo-design/">Logo Design</a></li>
 											
@@ -2751,7 +2751,7 @@ document.addEventListener('keydown', function(event) {
 					"https://twitter.com/aenfinitee",
 					"https://www.instagram.com/Aenfinite/"
 				  ],
-				  "description": "Expert search engine optimization agency specializing in keyword research, on-page SEO, technical audits, and link building strategies.",
+				  "description": "Aenfinite designs fast, mobile-first, custom websites that convert. Responsive layouts, SEO-ready code, and on-brand visuals built for performance.",
 				  "priceRange": "$$",
 				  "serviceArea": {
 					"@type": "GeoCircle",
@@ -2847,7 +2847,7 @@ export default function Page() {
     "url": "https://aenfinite.us"
   },
   "serviceType": "UI/UX Design",
-  "description": "Professional UI/UX design services focused on usability, accessibility, and seamless user experience for websites and apps.",
+  "description": "Aenfinite designs fast, mobile-first, custom websites that convert. Responsive layouts, SEO-ready code, and on-brand visuals built for performance.",
   "areaServed": ["United States", "Canada", "United Kingdom", "Asia"],
   "offers": {
     "@type": "Offer",
@@ -2898,7 +2898,7 @@ export default function Page() {
 					"https://twitter.com/aenfinitee",
 					"https://www.instagram.com/Aenfinite/"
 				  ],
-				  "description": "Expert search engine optimization agency specializing in keyword research, on-page SEO, technical audits, and link building strategies.",
+				  "description": "Aenfinite designs fast, mobile-first, custom websites that convert. Responsive layouts, SEO-ready code, and on-brand visuals built for performance.",
 				  "priceRange": "$$",
 				  "serviceArea": {
 					"@type": "GeoCircle",

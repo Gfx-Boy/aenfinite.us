@@ -1264,15 +1264,15 @@ const pageContent = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width
 				<div class="js-runner-content">
 											<div class="marquee-line">
 															<span class="marquee-line_text">Professional Digital Innovation Agency</span>
-															<span class="marquee-line_text">Custom Web Design & Brand Development</span>
+															<span class="marquee-line_text">Custom Software & Web Development</span>
 															<span class="marquee-line_text">Serving US & Canada Markets</span>
 															<span class="marquee-line_text">Expert UI/UX & Digital Marketing Solutions</span>
 															<span class="marquee-line_text">5-Star Client Reviews & Clutch Rating</span>
 															<span class="marquee-line_text">Expert Team - Adobe, Figma, Custom Development</span>
 															<span class="marquee-line_text">Agile Development & Design Process</span>
 															<span class="marquee-line_text">US-Based Digital Agency</span>
-															<span class="marquee-line_text">Professional Digital Innovation Services</span>
-															<span class="marquee-line_text">Custom Solutions for Every Business</span>
+															<span class="marquee-line_text">Web, Brand & UI/UX Design</span>
+															<span class="marquee-line_text">SEO, PPC & Digital Marketing</span>
 															<span class="marquee-line_text">E-Commerce & Mobile App Development</span>
 															<span class="marquee-line_text">SEO & Digital Marketing Specialists</span>
 													</div>
@@ -1519,8 +1519,8 @@ recommend a service from 1-10</div>
 				</div>
 				<div class="textbox appear js-aos">
   <div class="textbox-content">
-    <h3><b>Innovative Digital Solutions</b></h3>
-    <p>Aenfinite® combines strategy, design, and technology to create seamless digital experiences. From branding and web design to marketing and consulting, we deliver data-driven solutions that fuel measurable business growth.</p>
+    <h3><b>Development, Design & Marketing</b></h3>
+    <p>Aenfinite® unites three core strengths — development, design, and marketing — to build seamless digital experiences. From custom software, web and app development to branding, UI/UX design, SEO and digital marketing, we deliver data-driven solutions that fuel measurable business growth.</p>
   </div>
 </div>
 

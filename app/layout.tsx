@@ -58,10 +58,7 @@ export default function RootLayout({
 
         {/* DNS prefetch & preconnect for speed */}
 
-        {/* HREFLANG TAGS - Global language alternates */}
-        <link rel="alternate" hrefLang="x-default" href="https://aenfinite.us/" />
-        <link rel="alternate" hrefLang="en" href="https://aenfinite.us/" />
-        {/* END HREFLANG */}
+        {/* Hreflang alternates are declared per-page via metadata (alternates.languages). */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
